@@ -3,4 +3,55 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+}
+
+
+body{
+  background-color: darkblue;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.row{
+  width: 400px;
+}
+
+.row h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.button{
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: darkblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button:hover{
+  background-color: #ccc;
 }
